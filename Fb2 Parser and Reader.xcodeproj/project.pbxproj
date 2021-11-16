@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		84E87E54274316F100E3340A /* Fb2_Parser_and_ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E53274316F100E3340A /* Fb2_Parser_and_ReaderApp.swift */; };
-		84E87E56274316F100E3340A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E55274316F100E3340A /* ContentView.swift */; };
 		84E87E58274316F300E3340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E87E57274316F300E3340A /* Assets.xcassets */; };
 		84E87E5B274316F300E3340A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E87E5A274316F300E3340A /* Preview Assets.xcassets */; };
+		84E87E7127431A6A00E3340A /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E6D27431A6A00E3340A /* NavigationAction.swift */; };
+		84E87E7227431A6A00E3340A /* LabClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E6E27431A6A00E3340A /* LabClass.swift */; };
+		84E87E7327431A6A00E3340A /* ParserFb2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E6F27431A6A00E3340A /* ParserFb2.swift */; };
+		84E87E7527431E9400E3340A /* Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E87E7427431E9400E3340A /* Preferences.plist */; };
+		84E87E782743209C00E3340A /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = 84E87E772743209C00E3340A /* SwiftyXMLParser */; };
+		84E87E7C2743213900E3340A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E7A2743213900E3340A /* ContentView.swift */; };
+		84E87E7D2743213900E3340A /* TableOfContensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E7B2743213900E3340A /* TableOfContensView.swift */; };
+		84E87E802743216800E3340A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E7E2743216800E3340A /* WebView.swift */; };
+		84E87E812743216800E3340A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E7F2743216800E3340A /* ViewModel.swift */; };
+		84E87E842743250300E3340A /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 84E87E832743250300E3340A /* SQLite */; };
+		84E87E8627432E8600E3340A /* 126915.fb2 in Resources */ = {isa = PBXBuildFile; fileRef = 84E87E8527432E8600E3340A /* 126915.fb2 */; };
+		84E87E88274331B800E3340A /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E87274331B800E3340A /* LoaderView.swift */; };
+		84E87E8A2743366300E3340A /* JSUserScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E87E892743366300E3340A /* JSUserScripts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84E87E50274316F100E3340A /* Fb2 Parser and Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fb2 Parser and Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E87E53274316F100E3340A /* Fb2_Parser_and_ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fb2_Parser_and_ReaderApp.swift; sourceTree = "<group>"; };
-		84E87E55274316F100E3340A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84E87E57274316F300E3340A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E87E5A274316F300E3340A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E87E6D27431A6A00E3340A /* NavigationAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
+		84E87E6E27431A6A00E3340A /* LabClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabClass.swift; sourceTree = "<group>"; };
+		84E87E6F27431A6A00E3340A /* ParserFb2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserFb2.swift; sourceTree = "<group>"; };
+		84E87E7427431E9400E3340A /* Preferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Preferences.plist; sourceTree = "<group>"; };
+		84E87E7A2743213900E3340A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84E87E7B2743213900E3340A /* TableOfContensView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOfContensView.swift; sourceTree = "<group>"; };
+		84E87E7E2743216800E3340A /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		84E87E7F2743216800E3340A /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		84E87E8527432E8600E3340A /* 126915.fb2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 126915.fb2; sourceTree = "<group>"; };
+		84E87E87274331B800E3340A /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		84E87E892743366300E3340A /* JSUserScripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUserScripts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E87E842743250300E3340A /* SQLite in Frameworks */,
+				84E87E782743209C00E3340A /* SwiftyXMLParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +75,17 @@
 		84E87E52274316F100E3340A /* Fb2 Parser and Reader */ = {
 			isa = PBXGroup;
 			children = (
-				84E87E53274316F100E3340A /* Fb2_Parser_and_ReaderApp.swift */,
-				84E87E55274316F100E3340A /* ContentView.swift */,
+				84E87E8527432E8600E3340A /* 126915.fb2 */,
+				84E87E612743195200E3340A /* CLass */,
 				84E87E57274316F300E3340A /* Assets.xcassets */,
+				84E87E7427431E9400E3340A /* Preferences.plist */,
+				84E87E7A2743213900E3340A /* ContentView.swift */,
+				84E87E892743366300E3340A /* JSUserScripts.swift */,
+				84E87E53274316F100E3340A /* Fb2_Parser_and_ReaderApp.swift */,
+				84E87E87274331B800E3340A /* LoaderView.swift */,
+				84E87E7B2743213900E3340A /* TableOfContensView.swift */,
+				84E87E7F2743216800E3340A /* ViewModel.swift */,
+				84E87E7E2743216800E3340A /* WebView.swift */,
 				84E87E59274316F300E3340A /* Preview Content */,
 			);
 			path = "Fb2 Parser and Reader";
@@ -65,6 +97,16 @@
 				84E87E5A274316F300E3340A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E87E612743195200E3340A /* CLass */ = {
+			isa = PBXGroup;
+			children = (
+				84E87E6E27431A6A00E3340A /* LabClass.swift */,
+				84E87E6D27431A6A00E3340A /* NavigationAction.swift */,
+				84E87E6F27431A6A00E3340A /* ParserFb2.swift */,
+			);
+			path = CLass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +125,10 @@
 			dependencies = (
 			);
 			name = "Fb2 Parser and Reader";
+			packageProductDependencies = (
+				84E87E772743209C00E3340A /* SwiftyXMLParser */,
+				84E87E832743250300E3340A /* SQLite */,
+			);
 			productName = "Fb2 Parser and Reader";
 			productReference = 84E87E50274316F100E3340A /* Fb2 Parser and Reader.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +157,10 @@
 				Base,
 			);
 			mainGroup = 84E87E47274316F100E3340A;
+			packageReferences = (
+				84E87E762743209C00E3340A /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */,
+				84E87E822743250300E3340A /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = 84E87E51274316F100E3340A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +177,8 @@
 			files = (
 				84E87E5B274316F300E3340A /* Preview Assets.xcassets in Resources */,
 				84E87E58274316F300E3340A /* Assets.xcassets in Resources */,
+				84E87E8627432E8600E3340A /* 126915.fb2 in Resources */,
+				84E87E7527431E9400E3340A /* Preferences.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E87E56274316F100E3340A /* ContentView.swift in Sources */,
+				84E87E812743216800E3340A /* ViewModel.swift in Sources */,
+				84E87E7327431A6A00E3340A /* ParserFb2.swift in Sources */,
+				84E87E8A2743366300E3340A /* JSUserScripts.swift in Sources */,
+				84E87E7227431A6A00E3340A /* LabClass.swift in Sources */,
+				84E87E7C2743213900E3340A /* ContentView.swift in Sources */,
+				84E87E7D2743213900E3340A /* TableOfContensView.swift in Sources */,
+				84E87E802743216800E3340A /* WebView.swift in Sources */,
 				84E87E54274316F100E3340A /* Fb2_Parser_and_ReaderApp.swift in Sources */,
+				84E87E7127431A6A00E3340A /* NavigationAction.swift in Sources */,
+				84E87E88274331B800E3340A /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +401,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84E87E762743209C00E3340A /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yahoojapan/SwiftyXMLParser";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		84E87E822743250300E3340A /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84E87E772743209C00E3340A /* SwiftyXMLParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84E87E762743209C00E3340A /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */;
+			productName = SwiftyXMLParser;
+		};
+		84E87E832743250300E3340A /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84E87E822743250300E3340A /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84E87E48274316F100E3340A /* Project object */;
 }

@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+let preferens = getPlist(withName: "Preferences")
+let defaults = UserDefaults.standard
+
+
 @main
 struct Fb2_Parser_and_ReaderApp: App {
     var body: some Scene {
