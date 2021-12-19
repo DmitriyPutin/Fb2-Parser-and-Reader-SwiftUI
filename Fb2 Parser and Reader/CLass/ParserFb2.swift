@@ -1,7 +1,7 @@
 //  ParserFb2.swift
 //  SferaInfo
 //  Собрать HTML для отображения в WKWebView
-//  Created by Dmitriy Putin on 25.10.2021.
+//  Created by Dmitriy Putin on 25.10.2021. Комментарий
 
 import Foundation
 import SwiftyXMLParser

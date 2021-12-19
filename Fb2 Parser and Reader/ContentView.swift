@@ -12,6 +12,8 @@ import SQLite3
 
 struct ContentView: View {
     
+    
+    
     @Environment(\.presentationMode) var presentationMode
     
     @ObservedObject var contentsItem = TableOfContents.init(nameContent: "Start", parentContent: nil, keyUid: nil
