@@ -11,7 +11,6 @@ import Combine
 
 class StartParser {
     
-
     @Published var sizeFont:  Float
     @Published var fontName:  String
     @Published var colorFont: String
